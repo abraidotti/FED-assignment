@@ -20,11 +20,36 @@ nav {
   justify-content: space-around;
 }
 
-nav .active { 
+nav .active {
     background-color: yellow;
 }
 
 .button {
   border: 2px solid black;
   border-radius: 10%;
+}
+
+form {
+  text-align: center;
+}
+
+fieldset {
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+label {
+  width: 3em;
+  margin: 0 auto;
+  display: inline-block;
+}
+
+.slider {
+  margin: 10em auto;
+  background: black;
+  border-radius: 50%;
+  height: 1em;
+  width: 1em;
+  box-shadow: 0.75px 0.75px 0px 5px HSLA(200, 66%, 50%, 1.00);
 }
